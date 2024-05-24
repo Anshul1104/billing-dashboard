@@ -1,0 +1,28 @@
+.anticon svg {
+    fill: antiquewhite;
+}
+.site-layout-background {
+    background: #fff;
+    margin: 0 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.inner-container {
+    padding: 0 20px;
+}
+
+.store-name {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    padding: 0 10px;
+    color: #fff;
+    background:#ff7675;
+    border-radius: 40px;
+}

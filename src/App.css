@@ -1,0 +1,201 @@
+header {
+  z-index: 100;
+}
+
+.ant-layout {
+  background: #fff;
+}
+
+h1 {
+  font-size: 34px;
+  margin-top: 0;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+}
+
+h4 {
+  font-weight: normal;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-collapse: collapse;
+  border-radius: 8px;
+  min-width: 800px;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+}
+
+th {
+  padding: 16px;
+  color: #7d7d7d;
+  font-weight: bold;
+  height: 56px;
+}
+
+thead th {
+  color: #fff !important;
+  background: #12a5bd !important;
+}
+
+thead th::before {
+  background: rgb(131, 191, 251) !important;
+}
+
+tr {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+td {
+  padding: 16px;
+  height: 52px;
+}
+
+tr:hover {
+  background-color: rgba(182, 217, 253, 0.17);
+}
+
+input {
+  min-height: 40px;
+}
+
+.ant-layout {
+  /* background: #1e1e2f; */
+  height: fit-content;
+}
+
+.ant-layout-sider-children,
+.ant-menu.ant-menu-dark,
+.ant-menu-inline .ant-menu-item {
+  background: #fafafa;
+}
+
+.ant-menu-inline .ant-menu-item {
+  color: #7c7c7c;
+  padding: 24px;
+  transition: background 0.3s, padding 0.2s cubic-bezier(0.215, 0.61, 0.355, 1),
+    padding-inline calc(50% - 8px - 4px);
+  border-radius: 30px;
+}
+
+.ant-menu-inline .ant-menu-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background: #232323;
+  color: #fdfdfd;
+  border-radius: 30px;
+}
+
+.ant-menu-dark
+  .ant-menu-item:not(.ant-menu-item-selected):not(
+    .ant-menu-submenu-selected
+  ):hover,
+.ant-menu-dark
+  > .ant-menu
+  .ant-menu-item:not(.ant-menu-item-selected):not(
+    .ant-menu-submenu-selected
+  ):hover,
+.ant-menu-dark
+  .ant-menu-item:not(.ant-menu-item-selected):not(.ant-menu-submenu-selected)
+  > .ant-menu-submenu-title:hover,
+.ant-menu-dark
+  > .ant-menu
+  .ant-menu-item:not(.ant-menu-item-selected):not(.ant-menu-submenu-selected)
+  > .ant-menu-submenu-title:hover {
+  color: #000;
+  font-weight: bold;
+  transition: font-weight 0.2s ease-in-out;
+}
+
+.ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+  background: rgba(35, 35, 35, 0.75);
+}
+
+.ant-menu-title-content {
+  font-size: 16px;
+}
+
+.ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+  color: #fff;
+}
+
+button,
+.ant-btn-lg {
+  border-radius: 28px;
+}
+
+.ant-steps .ant-steps-item-process .ant-steps-item-icon {
+  background-color: #38a4bd;
+  border-color: #38a4bd;
+}
+
+.ant-steps
+  .ant-steps-item:not(.ant-steps-item-active):not(.ant-steps-item-process)
+  > .ant-steps-item-container[role="button"]:hover
+  .ant-steps-item-icon {
+  border-color: #38a4bd;
+}
+.ant-steps
+  .ant-steps-item:not(.ant-steps-item-active):not(.ant-steps-item-process)
+  > .ant-steps-item-container[role="button"]:hover
+  .ant-steps-item-icon
+  .ant-steps-icon {
+  color: #38a4bd;
+}
+
+.ant-steps
+  .ant-steps-item:not(.ant-steps-item-active)
+  > .ant-steps-item-container[role="button"]:hover
+  .ant-steps-item-title {
+  color: #38a4bd;
+}
+
+.ant-steps .ant-steps-item-finish .ant-steps-item-icon {
+  background-color: rgba(56, 164, 189, 0.188);
+  border-color: rgba(56, 164, 189, 0.188);
+}
+
+.ant-steps .ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon {
+  color: #38a4bd;
+}
+
+.ant-card {
+  position: relative;
+  background: #f9f9f9;
+  border-radius: 30px;
+}
+
+.ant-menu-dark .ant-menu-item {
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.ant-menu-dark .ant-menu-item:hover {
+  color: rgb(0, 0, 0);
+}
